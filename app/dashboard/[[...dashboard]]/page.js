@@ -36,12 +36,12 @@ export default function DashboardPage() {
             <nav>
               <ul style={{ listStyleType: 'none', padding: 0 }}>
                 <li>
-                  <button onClick={() => showMessage('Meal planner coming soon!')} style={{ display: 'block', padding: '0.5rem 1rem', color: '#f9fafb', background: 'none', border: 'none', cursor: 'pointer' }}>
+                  <button onClick={() => showMessage('Meal planner coming soon! Our AI Generated meals will be coming shortly!')} style={{ display: 'block', padding: '0.5rem 1rem', color: '#f9fafb', background: 'none', border: 'none', cursor: 'pointer' }}>
                     Meal Planner
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => showMessage('Saved meals coming soon!')} style={{ display: 'block', padding: '0.5rem 1rem', color: '#f9fafb', background: 'none', border: 'none', cursor: 'pointer' }}>
+                  <button onClick={() => showMessage('Saved meals coming soon! All your saved meals will be stored here!')} style={{ display: 'block', padding: '0.5rem 1rem', color: '#f9fafb', background: 'none', border: 'none', cursor: 'pointer' }}>
                     Saved Meals
                   </button>
                 </li>
