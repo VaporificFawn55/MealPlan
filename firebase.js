@@ -8,7 +8,7 @@ import { collection, getFirebase } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyABU3SApbuWvB54dqMqxKiRaCdeI2nKeM0",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "mealplanner-ed198.firebaseapp.com",
   projectId: "mealplanner-ed198",
   storageBucket: "mealplanner-ed198.appspot.com",
